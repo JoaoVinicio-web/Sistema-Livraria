@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Autores - Livraria</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            Livraria
+        </div>
+
+        <div class="menu">
+            <a href="principal.html">Início</a>
+
+            <div class="dropdown">
+                <a href="#">Livros ▾</a>
+
+                <div class="dropdown-menu">
+                    <a href="livros.html">Ver livros</a>
+                    <a href="cadastro-livro.html">Cadastrar livro</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <a href="#">Autores ▾</a>
+
+                <div class="dropdown-menu">
+                    <a href="autores.html">Ver autores</a>
+                    <a href="cadastro-autor.html">Cadastrar autor</a>
+                </div>
+            </div>
+
+            <a href="index.html">Deslogar</a>
+        </div>
+
+    </nav>
+
+    <main class="pagina">
+
+        <h1>Autores cadastrados</h1>
+
+        <a class="botao-principal" href="cadastro-autor.html">
+            Cadastrar novo autor
+        </a>
+
+        <div class="tabela-container">
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Código</th>
+                        <th>Nome</th>
+                        <th>Nacionalidade</th>
+                        <th>Data de nascimento</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>001</td>
+                        <td>Machado de Assis</td>
+                        <td>Brasileiro</td>
+                        <td>21/06/1839</td>
+                        <td>
+                            <button class="botao-editar">Editar</button>
+                            <button class="botao-excluir">Excluir</button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>002</td>
+                        <td>Antoine de Saint-Exupéry</td>
+                        <td>Francês</td>
+                        <td>29/06/1900</td>
+                        <td>
+                            <button class="botao-editar">Editar</button>
+                            <button class="botao-excluir">Excluir</button>
+                        </td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </main>
+
+</body>
+</html>
